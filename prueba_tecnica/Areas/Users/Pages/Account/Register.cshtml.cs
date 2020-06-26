@@ -21,6 +21,7 @@ namespace prueba_tecnica.Areas.Users.Pages.Account
         public class InputModel : InputModelRegister
         {
             public IFormFile AvatarImage { get; set; }
+            public string ErrorMessage { get; set; }
         }
     }
 }
